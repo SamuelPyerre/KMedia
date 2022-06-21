@@ -1,0 +1,43 @@
+
+<%- include('includes/head') %>    
+<%- include('includes/navbar.ejs') %>
+    
+<div class="container">
+      <h4 class="display-1 text-center">CADASTRO DE NOTAS</h4>
+      <p class="h3 text-center text-secondary">Cadastre as Notas dos seus Alunos!</p>
+        
+      
+      <div class="row">
+        <form>
+          <div class="mb-3">
+            <label  class="form-label">Nome do Estudante</label>
+            <input type="text" class="form-control" aria-describedby="emailHelp">
+            <div class="form-text">Digite o nome completo do estudante!</div>
+          </div>
+          <div class="mb-3">
+            <label  class="form-label">Matrícula do Estudante</label>
+            <input type="text" class="form-control" >
+          </div>
+
+          <div class="row">
+            <div class="col-lg">
+              <label class="form-label">1ª Nota do Estudantee</label>
+              <input type="text" class="form-control">
+              <div class="form-text">Digite a 1ª Nota do Aluno</div>
+            </div>
+            <div class="col-lg mb-5">
+              <label  class="form-label">2ª Nota do Estudantee</label>
+              <input type="text" class="form-control" >
+              <div class="form-text">Digite a 2ª Nota do Aluno</div>
+            </div>
+          </div>
+          
+          
+          <button type="submit" class="btn btn-outline-success">SALVAR</button>
+        </form>
+
+      </div>
+    </div>
+<%- include('includes/footer') %>    
+    
+  
